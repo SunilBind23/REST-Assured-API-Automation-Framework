@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "job": "Software Engineer",
+      "email": "john.doe@example.com",
+      "expectedStatusCode": 201
+    },
+    {
+      "name": "Jane Smith",
+      "job": "QA Engineer",
+      "email": "jane.smith@example.com",
+      "expectedStatusCode": 201
+    },
+    {
+      "name": "Bob Wilson",
+      "job": "DevOps Engineer",
+      "email": "bob.wilson@example.com",
+      "expectedStatusCode": 201
+    }
+  ],
+  "invalidUsers": [
+    {
+      "name": "",
+      "job": "",
+      "expectedStatusCode": 400
+    }
+  ],
+  "updatePayloads": [
+    {
+      "name": "John Updated",
+      "job": "Senior Software Engineer"
+    }
+  ],
+  "authCredentials": {
+    "validEmail": "eve.holt@reqres.in",
+    "validPassword": "cityslicka",
+    "invalidEmail": "invalid@test.com",
+    "invalidPassword": "wrongpassword"
+  }
+}
