@@ -228,6 +228,4 @@ Artifacts uploaded per run:
 
 ---
 
-## 📧 Contact
 
-Maintained by the SDET Team. For issues, open a GitHub Issue.
